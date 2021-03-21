@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <script src="https://kit.fontawesome.com/27b2ad561b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>U+</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+
+        <div class="status-bar__column">
+            <span>10:16</span>
+        </div>
+
+        <div class="status-bar__column">
+            <span>92%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+        </div>
+    </div>
+
+    <div class="status-bar__sub">
+        <div class="status-bar__sub__column">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+
+        <div class="status-bar__sub__column status-bar__sub__column-font">
+            <span>QR 체크인</span>
+        </div>
+
+        <div class="status-bar__sub__column status-bar__sub__column-pay">
+            <i class="fas fa-square fa-xl"></i>
+            <span>Pay</span>
+        </div>
+
+        <div class="status-bar__sub__column status-bar__sub__column-inbox">
+            <i class="fas fa-inbox fa-lg"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header-home">
+        <h1 class="welcome-header__home-title">
+            NAVER
+        </h1>
+    </header>
+
+    <form action="home.html" method="get" id="home-form">
+        <input name=username type="text" placeholder="검색어 또는 URL 입력">
+        <i class="fas fa-microphone fa-2x"></i>
+    </form>
+
+    <div id="text-form">
+        <div class="text-form__column text-form__column-first__text">
+            <span>매주 오후 2시 멘토링 시작합니다.</span>
+        </div>
+        <div class="text-form__column text-form__column-second__text">
+            <span>프론트엔드 개발 성장기 <strong>김민준</strong> </span>
+            <img src="https://www.ui4u.go.kr/depart/img/content/sub03/img_con03030100_01.jpg" />
+        </div>
+    </div>
+
+    <div id="skyblue"></div>
+
+    <main class="main">
+        <div class="main-compoent__column">
+            <div class="main-compoent__column--left">
+                <div class="main-compoent__column--left__img">
+                    <i class="fas fa-moon fa-3x"></i>
+                </div>
+                <div class="main-compoent__column--left__text">
+                    5도 맑음<br>
+                    미세 <span style="color: var(--emerald);">58</span> 초미세 <span style="color: #c68a12;">42</span>
+                </div>
+            </div>
+            <div class="main-compoent__column--right">
+                <div class="main-compoent__column--right__text">
+                    <h3>NOW</h3>
+                    <p>실시간으로<br>
+                        연애한다고?
+                    </p>
+                </div>
+                <div class="main-compoent__column--right__img">
+                    <img src="https://www.ui4u.go.kr/depart/img/content/sub03/img_con03030100_01.jpg" />
+                </div>
+                <div class="main-compoent__column--right__img-second">
+                    <img src="https://www.ui4u.go.kr/depart/img/content/sub03/img_con03030100_01.jpg" />
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="home__widget">
+        <i class="fas fa-redo fa-lg"></i>
+    </div>
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <span class="nav__notification">1</span>
+                    <i class="fas fa-heartbeat fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link nav__outcircle" href="./index.html">
+                    <div id="incircle"></div>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="./point.html">
+                    <i class="fas fa-file-invoice fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+</body>
+</html>

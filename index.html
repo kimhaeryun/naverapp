@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>naver</title>
+    <script src="https://kit.fontawesome.com/27b2ad561b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- 처음 스타터 바 생성 그 밑에 총 3개 생성 왼쪽 중간 오른쪽 -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>U+</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+
+        <div class="status-bar__column">
+            <span>10:16</span>
+        </div>
+
+        <div class="status-bar__column">
+            <span>92%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+        </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">
+            welcome to naver
+        </h1>
+        <p class="welcome-header__text">
+            네이버를 만들고 있어요!
+        </p>
+    </header>
+
+    <form action="home.html" method="get" id="login-form">
+        <input name=username type="text" placeholder="Email or phone number">
+        <input name=password type="password" placeholder="Password">
+        <input type="submit" value="Log In">
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>
